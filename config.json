@@ -1,0 +1,32 @@
+{
+    "version": "1.0.0",
+    "metadata": {
+        "description": "Configurations for Oracle Clound Instances",
+        "author": "MattSo28",
+        "last_updated": "12-10-2024"
+    },
+    "base_url": "design.integration.region.ocp.oraclecloud.com",
+    "region": "Insert Oracle Cloud Region here",
+    "api_uris": {
+        "retrieve_integrations": "/ic/api/integration/v1/integrations",
+        "retrieve_connections": "/ic/api/integration/v1/connections",
+        "retrieve_connection": "/ic/api/integration/v1/connections/{id}",
+        "retrieve_lookups": "/ic/api/integration/v1/lookups",
+        "export_integration": "/ic/api/integration/v1/integrations/{id}/archive",
+        "export_lookup": "/ic/api/integration/v1/lookups/{name}/archive"
+    },
+    "environments": {
+        "dev": {
+            "instance": "oic-dev-id",
+            "authorization": {
+                "bearer_token": "Insert bearer token for oic instance here"
+            }
+        },
+        "test": {
+            "instance": "oic-test-id",
+            "authorization": {
+                "bearer_token": "Insert bearer token for oic instance here"
+            }
+        }
+    }
+}
