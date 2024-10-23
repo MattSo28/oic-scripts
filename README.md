@@ -6,6 +6,8 @@ Set of scripts for use with Oracle Integration Cloud Gen 3
 1. Create an inventory file for all integrations in a single OIC Instance
 2. Create an inventory file for all connections in a single OIC Instance
 3. Archive all artifacts from an OIC Instance
+4. Export all integration artifacts from a source directory to a target OIC Instance
+
 
 ## To dos
 
